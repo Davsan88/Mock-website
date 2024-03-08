@@ -1,0 +1,52 @@
+h1 {
+    font-size: 60px;
+    Color: #d56c09;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p {
+    font-size: 20px;
+    Color: #b30505;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#secondp {
+    font-size: 20px;
+    Color: #000000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#unleash {
+    border: 3px outset #d56c09;
+    padding: 30px;
+}
+
+/* Navigation styles */
+
+nav {
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    padding: 10px 0px;
+    z-index: 1000;
+    background-color: #284063cd;
+    box-shadow: #000000;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li{
+    margin: 0;
+}
+
+nav a{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
