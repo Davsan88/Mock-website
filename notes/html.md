@@ -1,7 +1,7 @@
 # HTML Reference Guide
 
 ## Basic Structure
-
+<q>
 ```html
 !DOCTYPE html
 html
@@ -14,23 +14,33 @@ body
 /body
 /html
 
+
 ## Common Tags
 
-h1 to h6: Headings
-p: Paragraph
-a href="URL": Hyperlink
-img src="image.jpg" alt="description": Image
-ul, ol, li: Unordered and Ordered Lists
-div: generic container with no semantic meaning, often used for styling or as a layout tool
-section:  thematic grouping of content, typically with a heading, indicating a distinct section of a document
-span: Inline Container
-form, input: Form and Input Field
+<h1> to <h6>: Define headings with different levels of importance, <h1> being the most important.
+<p>: Represents a paragraph.
+<a href="URL">: Creates a hyperlink.
+<img src="image.jpg" alt="description">: Embeds an image.
+<ul>, <ol>, <li>: Create unordered and ordered lists.
+<div>: Serves as a generic container for content, with no semantic meaning.
+<section>: Groups thematically related content, typically includes a heading.
+<span>: A generic inline container.
+<form>, <input>: Used to create an interactive form for user input.
+<article>: Represents a self-contained composition in a document.
+<aside>: Denotes content indirectly related to the main content.
+<figure> and <figcaption>: Used together to associate a caption with a figure.
 
 ## Attributes
 
-class: Classifies an element
-id: Unique identifier for an element
-style: Inline CSS styling
+class: Groups elements for CSS or JavaScript.
+id: Identifies an element uniquely in the document.
+style: Applies inline CSS styles.
+href: Specifies link targets.
+src: Sets source URLs for media.
+alt: Provides text alternatives for images.
+title: Gives additional information, usually displayed as a tooltip.
+placeholder: Shows hint text in input fields.
+type: Defines input types in forms.
 
 
 ## Basic Text Formatting:
