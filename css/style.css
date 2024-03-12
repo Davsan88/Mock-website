@@ -1,18 +1,21 @@
 body {
     background-color: #2e2e2e;
+    font-family: "DM Sans", sans-serif;
+    color: #ffffff;
 
 }
 
 
 
-h1 {
-    font-size: 60px;
+h2 {
+    font-size: 2.5rem;
     Color: #d56c09;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "DM Sans", sans-serif;
+
 }
 
 p {
-    font-size: 20px;
+    font-size: 1.4rem;
     Color: #b30505;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
