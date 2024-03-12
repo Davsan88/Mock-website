@@ -49,7 +49,7 @@ nav li{
 
 nav a{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     color:#fcf7f3;
     text-decoration: none;
     transition: color 0.3s;
@@ -65,4 +65,5 @@ nav a:hover {
     text-decoration-color: ;
     */
     border-bottom: 3px solid #fdfcfb;
+    background-color: #8e8e8ea6;
 }
