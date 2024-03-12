@@ -72,6 +72,24 @@ type: Defines input types in forms.
 &nbsp;: A non-breaking space.
 
 
+## Block and Inline Elements
+
+#### Block-level HTML Elements
+These elements typically form a visible block on a page, like a paragraph or a division. Examples include:
+
+<header>, <footer>: Define the header and footer sections.
+<nav>: Navigation links.
+<main>, <article>, <section>: Main content, self-contained content, and thematic grouping respectively.
+<form>: Forms for user input.
+<table>: Tables.
+
+#### Inline-level HTML Elements
+These elements are contained within block-level elements and do not start on a new line. Examples include:
+
+<b>, <i>, <em>, <strong>: Bold, italic, emphasized text, and strong importance respectively.
+<br>: Line break.
+<input>, <label>: Form input and its label.
+<cite>, <code>: Reference to a cited work and a piece of computer code.
 
 
 
