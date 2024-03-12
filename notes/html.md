@@ -92,4 +92,15 @@ These elements are contained within block-level elements and do not start on a n
 <cite>, <code>: Reference to a cited work and a piece of computer code.
 
 
+## Positioning in CSS. 
+
+#### The position property includes:
+
+static: Default, following the normal flow.
+relative: Positioned relative to its normal position.
+absolute: Positioned relative to the nearest positioned ancestor.
+fixed: Positioned relative to the viewport.
+sticky: Switches between relative and fixed, based on the scroll position.
+
+Use top, right, bottom, and left to adjust the element's position. z-index determines the stacking order. Key considerations include element overlap, document flow impact, and context (e.g., viewport or container). For more, visit CSS Positioning on MDN Web Docs: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Positioning
 
