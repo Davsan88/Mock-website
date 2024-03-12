@@ -30,7 +30,7 @@ nav {
     width: 100%;
     padding: 10px 10px;
     z-index: 1000;
-    background-color: #284063cd;
+    background-color: #1e2126cd;
     box-shadow: 0px 2px 10px #010917;
 }
 
@@ -56,6 +56,13 @@ nav a{
     border-bottom: 0.3s;
     position: relative;
     padding: 10px 10px;
+}
 
-
+nav a:hover {
+    color:#43362a;
+    /*
+    text-decoration: underline;
+    text-decoration-color: ;
+    */
+    border-bottom: 3px solid #fdfcfb;
 }
