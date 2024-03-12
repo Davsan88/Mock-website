@@ -33,7 +33,7 @@ id: Unique identifier for an element
 style: Inline CSS styling
 
 
-## Bbasic Text Formatting:
+## Basic Text Formatting:
 
 <b>: Makes text bold.
 <i>: Italicizes text.
@@ -42,4 +42,26 @@ style: Inline CSS styling
 <sup>: Creates superscript text.
 <sub>: Creates subscript text.
 <em>: Emphasizes text (typically italicized).
-<strong>: Strong importance (typically bold)
+<strong>: Strong importance (typically bold).
+<span>: Generic inline container for phrasing content, without semantic meaning.
+<small>: Makes the text smaller.
+<mark>: Highlights text.
+<del>: Represents deleted text.
+<ins>: Represents inserted text.
+<blockquote>: Defines a section quoted from another source. Use cite="" to specify the URL of the source.
+<q>: Defines a short inline quotation.
+<abbr>: Indicates an abbreviation or acronym; use the title attribute to describe it.
+<address>: Specifies contact information for the author/owner of a document.
+<cite>: Defines the title of a creative work.
+<bdo dir="">: Overrides text direction. dir can be "ltr" (left to right) or "rtl" (right to left).
+<code>: Displays its contents styled in a fashion intended to indicate the text is a short fragment of computer code.
+<kbd>: Represents user input.
+<samp>: Defines sample output from a computer program.
+<var>: Represents a variable.
+&lt; & &gt;: The character entities for less-than and greater-than signs.
+&nbsp;: A non-breaking space.
+
+
+
+
+
