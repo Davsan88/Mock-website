@@ -5,17 +5,15 @@ body {
 
 }
 
-
-
 h2 {
-    font-size: 2.5rem;
+    font-size: 1.4rem;
     Color: #d56c09;
     font-family: "DM Sans", sans-serif;
 
 }
 
 p {
-    font-size: 1.4rem;
+    font-size: 20px;
     Color: #b30505;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
@@ -27,8 +25,12 @@ p {
 }
 
 .unleash {
-    border: 3px outset #d56c09;
+    background-color: #3e3e3e;
+    border-radius: 25px;
     padding: 30px;
+    margin: 80px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 15px #bd6602a2;
 }
 
 /* Navigation styles */
