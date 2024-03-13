@@ -12,11 +12,6 @@ h2 {
 
 }
 
-p {
-    font-size: 20px;
-    Color: #b30505;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-}
 
 #secondp {
     font-size: 20px;
@@ -95,4 +90,18 @@ nav a:hover {
     */
     border-bottom: 3px solid #fdfcfb;
     background-color: #8e8e8ea6;
+}
+
+
+
+/* Footer Section Styles */
+
+footer {
+    background-color: #1e2126cd;
+    padding: 40px 0;
+    color: #ffffff;
+}
+
+.footer-content {
+
 }
