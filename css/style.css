@@ -1,7 +1,7 @@
 body {
     background-color: #2e2e2e;
     font-family: "DM Sans", sans-serif;
-    color: #ffffff;
+    color: #fdfcfb;
 
 }
 
@@ -42,7 +42,7 @@ h2 {
 .unleash p {
     font-family: "DM Sans", sans-serif;
     font-size: 18px;
-    color: #ffffff;    
+    color: #fdfcfb;    
 }
 
 /* Navigation styles */
@@ -84,10 +84,6 @@ nav a{
 
 nav a:hover {
     color:#43362a;
-    /*
-    text-decoration: underline;
-    text-decoration-color: ;
-    */
     border-bottom: 3px solid #fdfcfb;
     background-color: #8e8e8ea6;
 }
@@ -99,9 +95,49 @@ nav a:hover {
 footer {
     background-color: #1e2126cd;
     padding: 40px 0;
-    color: #ffffff;
+    color: #fdfcfb;
 }
 
 .footer-content {
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
 
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px    
+}
+
+.footer-links a{
+    color: #fdfcfb;
+    text-decoration: none;
+    transform: color 0.3s;    
+}
+
+.footer-links a:hover {
+    color:#43362a;
+    /*
+    border-bottom: 3px solid #fdfcfb;
+    background-color: #8e8e8ea6;
+    */
+}
+
+.footer-social {
+    margin-top: 0;
+}
+
+.footer-social a{
+    color: #fdfcfb;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+    transform: color 0.3s;  
+}
+
+.footer-social a:hover {
+    color:#43362a;
 }
