@@ -5,12 +5,7 @@ body {
 
 }
 
-h2 {
-    font-size: 1.4rem;
-    Color: #d56c09;
-    font-family: "DM Sans", sans-serif;
 
-}
 
 
 
@@ -41,9 +36,9 @@ nav li{
 }
 
 nav a{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: "DM Sans", sans-serif;
     font-size: 20px;
-    color:#fcf7f3;
+    color:#fdfcfb;
     text-decoration: none;
     transition: color 0.3s;
     border-bottom: 0.3s;
@@ -77,9 +72,69 @@ nav a:hover {
     position: relative;
 }
 
+.container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #0000008f;
+    z-index: 0;
+}
+
+.header-container, .button-container {
+    position: relative;
+    z-index: 1;
+}
 
 
+h1 {
+    font-size: 2.5rem;
+    color: #fdfcfb;
+    margin-bottom: 10px;
+}
 
+h2 {
+    font-size: 1.4rem;
+    Color: #d56c09;
+    font-family: "DM Sans", sans-serif;
+
+}
+/* Header Section Styles - Button */
+
+button {
+    text-transform: uppercase;
+    position: relative;
+    border: none;
+    font-size: 18px;
+    transform: 0.2s;
+    background-color: 0.2s;
+    outline: none;
+    border-radius: 3px;
+    margin: 0 10px;
+    padding: 23px 33px;
+    border: 3px solid transparent;
+}
+
+button :active {
+    transform: translate(3px);
+}
+
+button ::after, button ::after {
+    border-radius: 3px;
+}
+
+.shrink.border {
+    background-color: transparent;
+    color: #fdfcfb;
+}
+
+.shrink-border:hover {
+    background-color: transparent;
+    color: #dfd7d0;
+    box-shadow: none;
+}
 
 
 .unleash {
