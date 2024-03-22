@@ -55,8 +55,9 @@
 ## CSS Text
 - **color**: Sets the text color.
 - **text-align**: Aligns text horizontally within an element (`left`, `right`, `center`, `justify`).
-- **text-decoration**: Adds decoration to text (`underline`, `line-through`, `overline`).
+- **text-decoration**: Adds decoration to text (`none`,`underline`, `line-through`, `overline`).
 - **text-transform**: Controls the capitalization of text (`uppercase`, `lowercase`, `capitalize`).
+- **text-shadow**: Adds shadow to text.
 
 
 ## CSS Fonts
@@ -64,7 +65,7 @@
 - **font-size**: Sets the size of the font.
 - **font-weight**: Controls the weight (boldness) of the font.
 - **font-style**: Defines the style of the font (`normal`, `italic`, `oblique`).
-
+- **@font-face**: Specify the font name, and specify the URL where it can be found.
 
 ## CSS Icons
 - **Web fonts or images**: Icons can be added using font libraries like FontAwesome or as images.
