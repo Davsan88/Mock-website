@@ -79,3 +79,8 @@
 - **:active**: Styles for when the link is being clicked.
 
 
+## CSS Lists
+- **list-style-type**: Specifies the type of list item marker (`disc`, `circle`, `square`, `decimal`, `upper-roman`, `lower-alpha`).
+- **list-style-image**: Uses an image as the list item marker.
+- **list-style-position**: Determines whether the list item marker appears inside or outside the content flow.
+- **list-style**: Shorthand property to set all list properties at once.
