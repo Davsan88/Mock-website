@@ -69,7 +69,7 @@
 - **@import**: Utilizing `url()` from the repository.
 
 ## CSS Icons
-- **Web fonts or images**: Icons can be added using font libraries like FontAwesome or as images.
+- **Web fonts or images**: Icons can be added using font libraries like FontAwesome, Booostrap or Google, or as images.
 
 
 ## CSS Links
