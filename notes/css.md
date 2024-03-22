@@ -66,6 +66,7 @@
 - **font-weight**: Controls the weight (boldness) of the font.
 - **font-style**: Defines the style of the font (`normal`, `italic`, `oblique`).
 - **@font-face**: Specify the font name, and specify the URL where it can be found.
+- **@import**: Utilizing `url()` from the repository.
 
 ## CSS Icons
 - **Web fonts or images**: Icons can be added using font libraries like FontAwesome or as images.
