@@ -28,31 +28,52 @@
 
 
 ## CSS Margins
-- **Controls**: Adjusts the space outside elements.
-- `margin-top`, `margin-right`, `margin-bottom`, `margin-left`: Adjust individual margins.
+- **margin**: Controls the outer space around an element.
+- **margin-top**: Sets the top margin.
+- **margin-right**: Sets the right margin.
+- **margin-bottom**: Sets the bottom margin.
+- **margin-left**: Sets the left margin.
 
 
 ## CSS Padding
-- **Controls**: Adjusts the space inside an element's border.
+- **padding**: Controls the space between an element's border and its content.
+- **padding-top**: Sets the top padding.
+- **padding-right**: Sets the right padding.
+- **padding-bottom**: Sets the bottom padding.
+- **padding-left**: Sets the left padding.
 
 
 ## CSS Height, Width & Max-Min-
-- **Height/Width**: Sets the size of elements.
-- **Max/Min**: Restricts sizes with `max-height`, `max-width`, `min-height`, `min-width`.
+- **height**: Specifies the height of an element.
+- **width**: Specifies the width of an element.
+- **max-height**: Sets the maximum height.
+- **max-width**: Sets the maximum width.
+- **min-height**: Sets the minimum height.
+- **min-width**: Sets the minimum width.
 
 
 ## CSS Text
-- **Styles**: Manages text appearance using `color`, `text-align`, `text-decoration`, `text-transform`.
+- **color**: Sets the text color.
+- **text-align**: Aligns text horizontally within an element (`left`, `right`, `center`, `justify`).
+- **text-decoration**: Adds decoration to text (`underline`, `line-through`, `overline`).
+- **text-transform**: Controls the capitalization of text (`uppercase`, `lowercase`, `capitalize`).
 
 
 ## CSS Fonts
-- **Customization**: Uses `font-family`, `font-size`, `font-weight`, `font-style` to style fonts.
+- **font-family**: Specifies the font for text.
+- **font-size**: Sets the size of the font.
+- **font-weight**: Controls the weight (boldness) of the font.
+- **font-style**: Defines the style of the font (`normal`, `italic`, `oblique`).
 
 
 ## CSS Icons
-- **Usage**: Incorporates icons with web fonts or images.
+- **Web fonts or images**: Icons can be added using font libraries like FontAwesome or as images.
+
 
 ## CSS Links
-- **Pseudo-classes**: Styles links using `:link`, `:visited`, `:hover`, `:active`.
+- **:link**: Styles for normal, unvisited links.
+- **:visited**: Styles for links that the user has visited.
+- **:hover**: Styles for when the mouse is over the link.
+- **:active**: Styles for when the link is being clicked.
 
 
