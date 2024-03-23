@@ -99,3 +99,12 @@
 - **Value**: An integer that determines the element's order. Higher values are closer to the front.
 - **Applicability**: Only affects elements with a `position` value other than `static` (e.g., `relative`, `absolute`, `fixed`, `sticky`).
 - **Usage Example**: `z-index: 3;` places the element higher than those with lower z-index values.
+
+
+## CSS Display Property
+- **`none`**: Hides the element, removing it from the document layout.
+- **`block`**: Makes the element a block-level element, starting on a new line and taking the full width available.
+- **`inline`**: The element does not start on a new line and only takes up as much width as necessary.
+- **`inline-block`**: Behaves like an inline element but can have a width and height set.
+- **`flex`**: Displays an element as a block-level flex container.
+- **`grid`**: Displays an element as a block-level grid container.
