@@ -101,7 +101,7 @@
 - **Usage Example**: `z-index: 3;` places the element higher than those with lower z-index values.
 
 
-## CSS Display Property
+## CSS Display
 - **`none`**: Hides the element, removing it from the document layout.
 - **`block`**: Makes the element a block-level element, starting on a new line and taking the full width available.
 - **`inline`**: The element does not start on a new line and only takes up as much width as necessary.
@@ -110,7 +110,7 @@
 - **`grid`**: Displays an element as a block-level grid container.
 
 
-## CSS Overflow Property
+## CSS Overflow
 - **`visible`**: Default. Content flows outside the container.
 - **`hidden`**: Content exceeding the container is clipped.
 - **`scroll`**: Adds scrollbars to see the hidden content.
