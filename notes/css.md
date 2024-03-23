@@ -80,7 +80,17 @@
 
 
 ## CSS Lists
-- **list-style-type**: Specifies the type of list item marker (`disc`, `circle`, `square`, `decimal`, `upper-roman`, `lower-alpha`).
+- **list-style-type**: Specifies the type of list item marker (`none`, `disc`, `circle`, `square`, `decimal`, `upper-roman`, `lower-alpha`).
 - **list-style-image**: Uses an image as the list item marker.
 - **list-style-position**: Determines whether the list item marker appears inside or outside the content flow.
 - **list-style**: Shorthand property to set all list properties at once.
+
+
+## CSS Positions
+- **position: static**: Default. Not positioned in any special way.
+- **position: relative**: Positioned relative to its normal position.
+- **position: absolute**: Positioned relative to the nearest positioned ancestor.
+- **position: fixed**: Positioned relative to the viewport.
+- **position: sticky**: Behaves like `relative` and changes to `fixed` upon reaching a scroll position.
+
+
