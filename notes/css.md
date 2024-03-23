@@ -115,3 +115,10 @@
 - **`hidden`**: Content exceeding the container is clipped.
 - **`scroll`**: Adds scrollbars to see the hidden content.
 - **`auto`**: Automatically adds scrollbars only when needed.
+
+
+## CSS Float
+- **`left`**: Element floats to the left of its container.
+- **`right`**: Element floats to the right of its container.
+- **`none`**: Default value. The element does not float.
+- **`inherit`**: Inherits the float value from its parent element.
