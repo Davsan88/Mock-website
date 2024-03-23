@@ -108,3 +108,10 @@
 - **`inline-block`**: Behaves like an inline element but can have a width and height set.
 - **`flex`**: Displays an element as a block-level flex container.
 - **`grid`**: Displays an element as a block-level grid container.
+
+
+## CSS Overflow Property
+- **`visible`**: Default. Content flows outside the container.
+- **`hidden`**: Content exceeding the container is clipped.
+- **`scroll`**: Adds scrollbars to see the hidden content.
+- **`auto`**: Automatically adds scrollbars only when needed.
