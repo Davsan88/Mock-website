@@ -122,3 +122,11 @@
 - **`right`**: Element floats to the right of its container.
 - **`none`**: Default value. The element does not float.
 - **`inherit`**: Inherits the float value from its parent element.
+
+
+## CSS Clear
+- **`none`**: The element is not pushed below floating elements.
+- **`left`**: The element is moved below any left-floating elements.
+- **`right`**: The element is moved below any right-floating elements.
+- **`both`**: The element is moved below floating elements on either side.
+
