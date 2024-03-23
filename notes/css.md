@@ -94,3 +94,8 @@
 - **position: sticky**: Behaves like `relative` and changes to `fixed` upon reaching a scroll position.
 
 
+## CSS z-index
+- **z-index**: Controls the stack order of positioned elements.
+- **Value**: An integer that determines the element's order. Higher values are closer to the front.
+- **Applicability**: Only affects elements with a `position` value other than `static` (e.g., `relative`, `absolute`, `fixed`, `sticky`).
+- **Usage Example**: `z-index: 3;` places the element higher than those with lower z-index values.
