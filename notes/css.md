@@ -130,3 +130,10 @@
 - **`right`**: The element is moved below any right-floating elements.
 - **`both`**: The element is moved below floating elements on either side.
 
+
+## CSS Combinations
+- **Descendant Selector (`space`)**: Targets all elements that are descendants of a specified element.
+- **Child Selector (`>`)**: Targets direct children of a specified element.
+- **Adjacent Sibling Selector (`+`)**: Targets an element immediately following another specific element.
+- **General Sibling Selector (`~`)**: Targets all siblings of a specified element that follow it.
+
