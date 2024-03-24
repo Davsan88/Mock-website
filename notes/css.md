@@ -137,3 +137,13 @@
 - **Adjacent Sibling Selector (`+`)**: Targets an element immediately following another specific element.
 - **General Sibling Selector (`~`)**: Targets all siblings of a specified element that follow it.
 
+
+## CSS Pseudo-classes
+Pseudo-classes allow you to style elements based on their state or position.
+- **`:hover`**: Styles an element when a user hovers over it.
+- **`:focus`**: Applies styles to an element when it has focus.
+- **`:active`**: Targets an element upon being activated (clicked).
+- **`:visited`**: Styles links that have been visited.
+- **`:first-child`**: Targets the first child element within a parent.
+- **`:last-child`**: Targets the last child element within a parent.
+- **`:nth-child(n)`**: Styles an element that is the n-th child of its parent.
