@@ -337,6 +337,7 @@ figcaption {
 .two-colummn-container{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 20px; /* Space between title and columns */
     /* max-width: 1200px; Adjust based on your design */
     margin-left: 50px; /* Center the container horizontally */
@@ -347,8 +348,6 @@ figcaption {
 
 .column {
     flex-basis: 48%; /* Adjust the width of the columns as needed */
-    
-
 }
 
 .column img{
@@ -369,6 +368,21 @@ figcaption {
     box-shadow: 0 4px 15px #bd6602a2;
 }
 
+
+
+/*      Call to Action          */
+
+.call-to-action {
+    background-color: #74716f8f;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.call-to-action h2 {
+    margin: 10px 20px 30px;
+    text-shadow: 2px 2px 3px #1e2126cd;
+
+}
 
 
 /* Footer Section Styles */
