@@ -2,10 +2,7 @@ body {
     background-color: #2e2e2e;
     font-family: "DM Sans", sans-serif;
     color: #fdfcfb;
-
 }
-
-
 
 
 
@@ -107,6 +104,9 @@ h3 {
     Color: #d56c09;
     font-family: "DM Sans", sans-serif;
 }
+
+
+
 /* Header Section Styles - Button */
 
 button {
@@ -266,6 +266,45 @@ figcaption {
         width: 75vw;
     }
 }
+
+
+/*      Contact Section     */
+
+.contact {
+    background-color: #3e3e3e;
+    border-radius: 15px;
+    padding: 30px;
+    margin: 80px auto;
+    margin-top: 100px;
+    max-width: 800px;
+    box-shadow: 0 4px 15px #bd6602a2;
+}
+
+.contact h2 {
+    font-size: 24px;
+    Color: #bd6602; 
+    font-family: "DM Sans", sans-serif;
+    margin-bottom: 5px;
+    border-bottom: 2px solid #2e2e2e;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+.contact form {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    color: #fdfcfb;
+    line-height: 1.6;
+    margin: 0;
+
+}
+.contact input {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    color: #3e3e3e;
+    line-height: 1.6;
+    margin: 0;
+}
+
 
 
 /* Footer Section Styles */
