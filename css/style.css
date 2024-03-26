@@ -382,13 +382,12 @@ footer {
     padding-bottom: 5px;
 }
 
-
 .custom-table {
     width: 100%;
     border-collapse: collapse;
 }
 
-.custom-table td {
+.custom-table td, .custom-table th {
     padding: 10px;
     border: 1px solid #fdfcfb;
 
