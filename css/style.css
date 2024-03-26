@@ -181,31 +181,23 @@ button ::after, button ::after {
 */
 
 
-/* Applying .unleash box-shadow to .experiences */
+/*          Experiences Section         */
 
-
-.experiences-intro{
-    background-color: #3e3e3e;
-    border-radius: 15px;
-    padding: 30px;
-    margin: 80px auto;
-    margin-top: 100px;
-    max-width: 800px;
-    box-shadow: 0 4px 15px #bd6602a2;
+.experiences-container {
+    display: flex;
+    flex-wrap: wrap;
 }
 
+/* Option 2
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); / Creates two columns of equal width /
+    grid-gap: 20px; / Optional: Adjusts the gap between grid items /
+}*/
 
-.experiences-main{
-    background-color: #3e3e3e;
-    border-radius: 15px;
-    padding: 30px;
-    margin: 80px auto;
-    margin-top: 100px;
-    max-width: 800px;
-    box-shadow: 0 4px 15px #bd6602a2;
-}
-
-#sprint, #endurance, #track, #night {
+.experiences-section {
+        flex: 1 1 50%; /* Grow to fill the container, but do not exceed 50% of the container's width */
+        /* Optional: Add padding or margins as necessary */
         background-color: #3e3e3e;
         border-radius: 15px;
         padding: 30px;
@@ -215,7 +207,11 @@ button ::after, button ::after {
         box-shadow: 0 4px 15px #bd6602a2;
 }
 
-
+@media screen and (max-width: 600px) {
+    .experiences-section {
+        flex: 1 1 100%; /* Adjusts to a single column on smaller screens */
+    }
+}
 
 /*      Gallery Section Styles      */
 
@@ -468,5 +464,4 @@ footer {
 .custom-table td, .custom-table th {
     padding: 10px;
     border: 1px solid #fdfcfb;
-
 }
